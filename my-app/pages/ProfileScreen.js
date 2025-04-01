@@ -4,7 +4,7 @@ import { StyleSheet, View, Image, Text } from "react-native";
 export default function ProfileScreen( ) {
     return (
         <View style={styles.container}>
-            <Image source={require("../assets/profile.png")} style={styles.image} />
+            <Image source={require("../assets/img/profile.jpg")} style={styles.image} />
             <Text style={styles.title}>Bem vindo ao meu perfil</Text>
             <Text style={styles.subtitle}>Nome: Anna Beatriz</Text>
             <Text style={styles.subtitle}>Idade: 17 anos</Text>

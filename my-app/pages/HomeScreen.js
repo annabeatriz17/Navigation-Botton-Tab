@@ -5,7 +5,7 @@ export default function Home( { navigation } ) {
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Bem vindo a página inicial</Text>
-            <Button title="Ir para a página 2" onPress={() => navigation.navigate("Página 2")} />
+            <Button title="Ir para a outra página" onPress={() => navigation.navigate("Página 2")} />
         </View>
     );
 }
