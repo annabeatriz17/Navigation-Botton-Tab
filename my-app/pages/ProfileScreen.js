@@ -9,7 +9,7 @@ export default function ProfileScreen( ) {
             <Text style={styles.subtitle}>Nome: Anna Beatriz</Text>
             <Text style={styles.subtitle}>Idade: 17 anos</Text>
             <Text style={styles.subtitle}>Cidade: Valinhos</Text>
-            <Text style={styles.subtitle}>E-mail: annabeatriz@gmail.com</Text>
+            <Text style={styles.subtitle}>E-mail: annabeatrizbe13@gmail.com</Text>
         </View>
     );
 }
