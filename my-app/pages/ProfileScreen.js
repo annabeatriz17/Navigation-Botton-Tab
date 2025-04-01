@@ -1,12 +1,10 @@
 import React from "react";
-import {  } from "react-native";
+import { StyleSheet, View, Image, Text } from "react-native";
 
 export default function ProfileScreen( ) {
     return (
         <View style={styles.container}>
-            <Image >
-
-            </Image>
+            <Image source={require("../assets/profile.png")} style={styles.image} />
             <Text style={styles.title}>Bem vindo ao meu perfil</Text>
             <Text style={styles.subtitle}>Nome: Anna Beatriz</Text>
             <Text style={styles.subtitle}>Idade: 17 anos</Text>
@@ -22,6 +20,11 @@ const styles = StyleSheet.create({
         alignItems: "center",
         justifyContent: "center",
         backgroundColor: "#fff",
+    },
+    image: {
+        width: 200,
+        height: 200,
+        marginTop: 20,
     },
     title: {
         fontSize: 20,
